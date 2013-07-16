@@ -1,4 +1,8 @@
 <?php
+
+/*
+I am now making a fix (maybe even a hotfix) for 20130716
+*/
 require_once('bapi-config.php');
 class BAPI
 {
