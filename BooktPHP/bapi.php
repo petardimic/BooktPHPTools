@@ -1,4 +1,10 @@
 <?php
+/*
+
+I'm a developer just working on code that should not be in build 20130716
+
+*/
+
 require_once('bapi-config.php');
 class BAPI
 {
