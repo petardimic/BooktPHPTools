@@ -1,11 +1,6 @@
 <?php
 require_once('bapi.php');
 
-/*
-I am making some changes.
-Blah blah bla
-*/
-
 if(!empty($_REQUEST['sync'])&&($_REQUEST['sync']==1)){
 	$b = new BAPI($_REQUEST['solID'],$_REQUEST['apiKey']);
 	$b->importPropertyFull();
