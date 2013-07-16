@@ -5,6 +5,10 @@ I'm a developer just working on code that should not be in build 20130716
 
 */
 
+
+/*
+I am now making a fix (maybe even a hotfix) for 20130716
+*/
 require_once('bapi-config.php');
 class BAPI
 {
