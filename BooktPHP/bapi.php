@@ -432,7 +432,7 @@ class Property extends BAPI
 			return($data);
 		}		
 		else{
-			$url = $this->baseURL.'/ws/?method=get&apiKey='.$this->apiKey.'&entity=property&seo=1&rates=1&poi=1&reviews=1&descrip=1&avail=1&ids='.$this->propID;
+			$url = $this->baseURL.'/ws/?method=get&apiKey='.$this->apiKey.'&entity=property&seo=1&rates=1&poi=1&reviews=1&descrip=1&avail=1&loadconfig=1&ids='.$this->propID;
 			$json = file_get_contents($url);
 			$data = json_decode($json, TRUE);
 			if(!empty($data['error'])){ 
